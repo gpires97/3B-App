@@ -14,7 +14,7 @@ opcao_escolhida = int(input('Escolha uma opção: '))
 #print(f'Você escolheu a opção {opcao_escolhida}')
 
 def finaliza_app():
-    os.system('cls')
+    os.system('cls') #os.system('clear')
     print('Encerrando o programa\n')
 
 if opcao_escolhida == 1:
